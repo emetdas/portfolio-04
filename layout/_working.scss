@@ -1,0 +1,95 @@
+.mixt {
+  width: 100%;
+}
+.wor {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem 0 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wor {
+  width: 95%;
+  margin: auto;
+}
+.wor .filter {
+  margin: 1rem 1rem;
+  font-family: "El Messiri", sans-serif;
+  cursor: pointer;
+  padding: 10px 26px 10px 28px;
+  box-shadow: 2px 2px 7px rgb(27, 110, 124);
+  color: #ececec;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 55px;
+  background-image: linear-gradient(to right, #19d8a8 0%, #13c8e0 100%);
+}
+.filter:hover {
+  background-position: right;
+}
+#fil .mix {
+  width: 300px;
+  height: 300px;
+  margin: 0.5rem 1rem;
+  display: none;
+  padding: 1rem 0;
+  border: 2px solid #cfcfcf;
+  position: relative;
+  i {
+    padding: 0.5rem 0;
+    font-size: 30px;
+    color: #27b3a0;
+  }
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+  }
+}
+.mix img {
+  width: 80%;
+  height: 50%;
+}
+.mix .hover-effect {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.2s 0.2s;
+  top: 0;
+  text-align: center;
+  background-image: linear-gradient(
+    to right top,
+    #6b78d1,
+    #6a7cd3,
+    #6981d6,
+    #6885d8,
+    #6789da,
+    #5791de,
+    #4598e1,
+    #329fe2,
+    #00a9e0,
+    #00b3d9,
+    #00bace,
+    #16c1c1
+  );
+  color: #cfcfcf;
+  -webkit-transition: all 0.2s 0.2s;
+  -moz-transition: all 0.2s 0.2s;
+  -ms-transition: all 0.2s 0.2s;
+  -o-transition: all 0.2s 0.2s;
+}
+.mix:hover,
+.mix:hover .hover-effect {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border: none !important;
+}
+.mix .hover-effect i {
+  margin-top: 45%;
+  z-index: 999;
+  color: #ffffff !important;
+}

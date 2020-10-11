@@ -1,0 +1,128 @@
+@media only screen and (max-width: 480px){
+    body{
+        width: 100% !important;
+        overflow-x: hidden;
+    }
+    .header .row .txt{
+        display: none !important;
+    }
+    .ban-herro img{
+       margin-left: 12%;
+        margin-top: 2rem !important;
+        width: 240px !important;
+        height: 160px !important;
+    }
+    .skill-t h1{
+        font-size: 1.7rem;
+    }
+    .pro .skill{
+        width: 90%;
+        margin:1rem auto;
+        p{
+            font-size: .9rem;
+            font-weight: 100;
+        }
+    }
+    .row .web,.dev{
+        margin-top: .5rem;
+    }
+    #fil .mix{
+        width: 80%;
+        margin: 1rem auto !important;
+    }
+    .work .col{
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .work-text h1{
+        font-size: 1.4rem;
+    }
+    .work-text  h1::before {
+        margin-left: 20%;
+        content: "";
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        width: 100px;
+        height: 3px;
+        background-color: rgb(207, 207, 207);
+      }
+    .ues .col{
+        margin-top: .4rem;
+    }
+    .ues h2 {
+        padding: 0.5rem 0;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      .ues p {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    .featur .featur-item{
+        width: 90%;
+        margin: auto;
+        margin-top: .4rem;
+    }
+    .featur-txt h1{
+        width: 80%;
+        margin: auto;
+        font-size: 1rem;
+    }
+    .featur-txt h1::before {
+        content: "";
+        width: 100px;
+        height: 4px;
+        background-color: #bdbdbd;
+        position: absolute;
+        bottom: 0;
+        left: 30%;
+        margin: 0.5rem;
+      }
+    .featur-item h2{
+        font-size: 1.3rem;
+    }
+    .featur-item i{
+    font-size: 1.5rem;
+    }
+    .about-me{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+        margin-top: -5rem;
+    }
+    .about-image img{
+        margin-left: 5rem !important;
+        width: 150px !important;
+    }
+    #Contact{
+        height: 380px;
+        margin-top: -2rem !important;
+    }
+    .about-contant{
+        width: 250px !important;
+        margin:  0 2rem;
+    }
+    .login-content input[type="submit"]{
+        
+        font-size: .8rem;
+    }
+    .featur-txt h1{
+        font-size: 1.3rem;
+    }
+    .footer{
+    .link{
+        display: none;
+    }
+}
+    .footer-item .soci{
+        display: none;
+    }
+    .movile{
+        display: none !important;
+    }
+    .scrollTop{
+        display: none;
+    }
+    
+}

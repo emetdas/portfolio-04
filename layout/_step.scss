@@ -1,0 +1,55 @@
+.featur-txt h1 {
+  padding: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+}
+.featur-txt h1::before {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: #bdbdbd;
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+  margin: 0.5rem;
+}
+.featur {
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 20px;
+  .featur-item {
+    transition: ease 0.4s all;
+    -webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -ms-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    background-color: #f2f3f7;
+    padding: 1rem;
+    text-align: center;
+    p {
+      line-height: 1.5rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+      text-align: justify;
+    }
+    h1 {
+      padding: 0.5rem 0;
+    }
+    .fa-sliders-h {
+      color: #0332b3;
+    }
+    .fa-clock {
+      color: #ff8520;
+    }
+    .fa-bookmark {
+      color: #9347d1;
+    }
+    h2,i{
+      margin: .5rem 0;
+    }
+  }
+}

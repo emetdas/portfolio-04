@@ -1,0 +1,74 @@
+.about-me {
+  width: 100%;
+  padding: 1rem 0;
+  .about-contanir {
+    width: 70%;
+    padding: 1rem 9rem 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    .about-image img {
+      width: 200px;
+      margin-top: 2.5rem;
+      height: 200px;
+      margin-right: 5rem;
+      float: right;
+    }
+    .about-contant {
+      width: 500px;
+      h1,
+      h2 {
+        text-align: center;
+        margin: -1rem;
+      }
+      h2{
+        margin: 1.2rem 0!important;
+      }
+      p {
+        margin-top: 1rem;
+        text-align: justify;
+        font-weight: 500;
+        font-size: 1.2rem;
+      }
+      .social-link i {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 2px 2px #999;
+        padding: 0px;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem 0.5rem;
+        font-size: 25px;
+        font-weight: normal;
+        line-height: 2em;
+        border-radius: 25px;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+      }
+    }
+  }
+}
+
+.fa-facebook-f {
+  color: blue;
+}
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  color: #fff;
+  border-radius: 40px;
+}
+.fa-linkedin-in{
+    color: #0094BC;
+}
+.fa-twitter{
+    color: #00ABE3;
+}

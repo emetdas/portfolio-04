@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.skill-t > h1 {
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+}
+.skill-t > h1::before {
+  content: "";
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 7rem;
+  height: 3px;
+  background-color: rgba(110, 123, 251, 1);
+}
+.skill-t .pro h2 {
+  margin: 0.5rem 6rem;
+  font-size: 1.5rem;
+  color: #2b6ce4;
+}
+.skill {
+  margin-bottom: 1.7rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.skill::before {
+  content: "";
+  width: 100%;
+  height: 20px;
+  display: block;
+  position: absolute;
+  background-color: #959595;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.skill .skill-bar:hover::before {
+  height: 100%;
+}
+
+.skill p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1716;
+  margin: 0.3rem 0;
+}
+
+.skill .skill-bar {
+  width: 100%;
+  height: 20px;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  animation: animated 1s both;
+}
+
+.skill .skill-bar.skill1 {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(156, 252, 248, 1) 11.2%,
+    rgba(110, 123, 251, 1) 91.1%
+  );
+  width: 95%;
+}
+
+.skill .skill-bar.skill2 {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(253, 199, 141, 1) 11.3%,
+    rgba(249, 143, 253, 1) 100.2%
+  );
+  width: 70%;
+}
+
+.skill .skill-bar.skill3 {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(253, 193, 104, 1) 0%,
+    rgba(251, 128, 128, 1) 90%
+  );
+  width: 60%;
+}
+
+.skill .skill-bar span {
+  position: absolute;
+  border-top: 5px solid #2f95f4;
+  top: -30px;
+  padding: 3px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.skill .skill-bar.skill1 span.skill-count,
+.skill .skill-bar.skill2 span.skill-count,
+.skill .skill-bar.skill3 span.skill-count,
+.skill .skill-bar.skill4 span.skill-count,
+.skill .skill-bar.skill5 span.skill-count {
+  right: 0;
+}
+
+@keyframes animated {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: matrix3d(0, 0, 0);
+  }
+}
+.skill-t li {
+  list-style-type: none;
+}
+.web {
+  font-family: "Nunito", sans-serif !important;
+  text-align: center;
+  padding: 1rem 0;
+  border: 2px solid #f2f2f2;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  h2 {
+    color: #209e8d;
+    font-size: 1.4rem;
+  }
+  ul {
+    text-align: left;
+    margin-left: 25%;
+    li {
+      padding: 0.2rem 0;
+      font-size: 1rem;
+      i {
+        color: #21911d;
+        margin: 0 0.2rem;
+      }
+    }
+  }
+}
+.web > i {
+  color: rgb(240, 176, 0);
+}
+.dev {
+  text-align: center;
+  padding: 1rem 0;
+  border: 2px solid #f2f2f2;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  h2 {
+    color: #77e9b0;
+    font-size: 1.4rem;
+  }
+  ul {
+    text-align: left;
+    margin-left: 25%;
+    li {
+      padding: 0.5rem 0;
+      font-size: 1rem;
+      i {
+        color: #21911d;
+        margin: 0 0.2rem;
+      }
+    }
+  }
+}
+.dev > i {
+  color: rgb(0, 164, 170);
+}
+.web:hover,
+.dev:hover {
+  border: none;
+  transition: all 0.2s 0.2s;
+  -webkit-box-shadow: -1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+  -webkit-transition: all 0.2s 0.2s;
+  -moz-transition: all 0.2s 0.2s;
+  -ms-transition: all 0.2s 0.2s;
+  -o-transition: all 0.2s 0.2s;
+}

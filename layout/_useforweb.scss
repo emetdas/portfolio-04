@@ -1,0 +1,36 @@
+.ues {
+  padding: 1rem 0;
+}
+.ues .col {
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid #f2f2f2;
+}
+.ues .col p {
+  text-align: justify;
+}
+
+.work-text h1 {
+  text-align: center;
+  position: relative;
+  font-size: 2rem;
+  padding: 0.4rem 0;
+}
+.work-text h1::before {
+  content: "";
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 320px;
+  height: 3px;
+  background-color: rgb(207, 207, 207);
+}
+.ues h2 {
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.ues p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
